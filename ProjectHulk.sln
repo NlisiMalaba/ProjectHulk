@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hulk.Api", "Hulk.Api\Hulk.Api.csproj", "{4CC2F735-6CB2-4867-9523-5E124DC8A716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hulk.Data", "Hulk.Data\Hulk.Data.csproj", "{B35263AD-635E-41F5-AE13-AD9996DC6377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hulk.Core", "Hulk.Core\Hulk.Core.csproj", "{774D48A5-98F3-474D-8972-907F26CF5273}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CC2F735-6CB2-4867-9523-5E124DC8A716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC2F735-6CB2-4867-9523-5E124DC8A716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC2F735-6CB2-4867-9523-5E124DC8A716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC2F735-6CB2-4867-9523-5E124DC8A716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35263AD-635E-41F5-AE13-AD9996DC6377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35263AD-635E-41F5-AE13-AD9996DC6377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35263AD-635E-41F5-AE13-AD9996DC6377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35263AD-635E-41F5-AE13-AD9996DC6377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774D48A5-98F3-474D-8972-907F26CF5273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774D48A5-98F3-474D-8972-907F26CF5273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774D48A5-98F3-474D-8972-907F26CF5273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774D48A5-98F3-474D-8972-907F26CF5273}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
