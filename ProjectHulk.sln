@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hulk.Data", "Hulk.Data\Hulk
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hulk.Core", "Hulk.Core\Hulk.Core.csproj", "{774D48A5-98F3-474D-8972-907F26CF5273}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hulk.web", "Hulk.Web\hulk.web.esproj", "{7658DF51-384B-4B43-AA7A-F2BD14E8AE43}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Hulk.web", "Hulk.Web\Hulk.web.esproj", "{7658DF51-384B-4B43-AA7A-F2BD14E8AE43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
