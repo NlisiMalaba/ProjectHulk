@@ -22,6 +22,9 @@ namespace Hulk.Core.Mapping
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
                 .ForMember(dest => dest.NumberOfTrades, opt => opt.MapFrom(src => src.NumberOfTrades));
+
+            CreateMap<Pair, PairMinimalResponseDto>()
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name));
         }  
     }
 }

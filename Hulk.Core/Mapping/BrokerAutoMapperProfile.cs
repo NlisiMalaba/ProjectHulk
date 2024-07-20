@@ -24,6 +24,9 @@ namespace Hulk.Core.Mapping
                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
                .ForMember(dest => dest.CurrentAmount, opt => opt.MapFrom(src => src.CurrentAmount))
                .ForMember(dest => dest.InitialAmount, opt => opt.MapFrom(src => src.InitialAmount));
+
+            CreateMap<Broker, BrokerMinimalResponseDto>()
+              .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name));
         }
     }
 }
