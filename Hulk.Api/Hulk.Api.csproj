@@ -18,7 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Hulk.Core\Hulk.Core.csproj" />
+    <ProjectReference Include="..\Hulk.Data\Hulk.Data.csproj" />
   </ItemGroup>
 
 </Project>
