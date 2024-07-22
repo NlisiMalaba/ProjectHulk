@@ -1,11 +1,8 @@
 ﻿using Hulk.Core.Dtos;
 using Hulk.Core.Dtos.PairDtos;
 using Hulk.Core.Interfaces;
-using Hulk.Data.Entities;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
 
 namespace Hulk.Api.Controllers
 {
@@ -60,6 +57,5 @@ namespace Hulk.Api.Controllers
         {
             return Ok(await _pairService.DeletePair(id));
         }
-
     }
 }
